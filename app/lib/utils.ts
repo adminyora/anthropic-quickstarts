@@ -17,6 +17,7 @@ const bedrockClient = new BedrockAgentRuntimeClient({
   },
 });
 
+
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
